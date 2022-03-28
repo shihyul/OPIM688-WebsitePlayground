@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Hello | My Site</title>
+    <link rel="stylesheet" type="text/css" href="assets/styles/mystyle.css">
+  </head>
+  <body>
+    <h1>Hello World</h1>
+
+    <p>Welcome to my site.</p>
+
+    <div id="my-divider">
+      <p>Some paragraph text here!</p>
+
+      <ol>
+        <li class="horizontal">One</li>
+        <li class="horizontal">Two</li>
+        <li class="horizontal">Three</li>
+      </ol>
+
+      <p class="bottom">Some more text</p>
+    </div>
+  </body>
+</html>
