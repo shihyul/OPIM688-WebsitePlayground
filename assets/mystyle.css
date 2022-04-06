@@ -1,25 +1,25 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Hello | My Site</title>
-    <link rel="stylesheet" type="text/css" href="assets/styles/mystyle.css">
-  </head>
-  <body>
-    <h1>Hello World</h1>
 
-    <p>Welcome to my site.</p>
+/* THIS IS MY STYLESHEET (e.g. "assets/styles/my-style.css") */
 
-    <div id="my-divider">
-      <p>Some paragraph text here!</p>
-
-      <ol>
-        <li class="horizontal">One</li>
-        <li class="horizontal">Two</li>
-        <li class="horizontal">Three</li>
-      </ol>
-
-      <p class="bottom">Some more text</p>
-    </div>
-  </body>
-</html>
+h1 {
+    font-size:48px;
+    color: red;
+  }
+  
+  p {
+    font-family: monospace;
+    color: '#ccc';
+  }
+  
+  div#my-divider {
+    border: 2px solid #000;
+    height: 300px;
+    width: 300px;
+  }
+  
+  ol { list-style:none; }
+  
+  li.horizontal { display: inline; }
+  
+  .bottom { color:red; }
+  
